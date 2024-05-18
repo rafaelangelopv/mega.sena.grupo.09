@@ -16,6 +16,10 @@ function megaSena(){
         }
         numerosEscolhidos.push(numero);
     }
+        // Ordena os números escolhidos em ordem crescente
+        numerosEscolhidos.sort(function(a, b) {
+        return a - b;
+        });
 
     // Sorteie 6 números aleatórios entre 1 e 60
     for (var i = 0; i < 6; i++){
