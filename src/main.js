@@ -1,3 +1,10 @@
+/* Intregrantes: [Nome/Matrícula]
+Rafael Angelo Pinheiro Do Vale
+Maria Beatriz Gadelha de Oliveira
+Isaias Do Amaral Sousa / 2416767
+Rodrigo Fernandes Targino de Souza
+Lucas Ramos Ribeiro */
+
 document.getElementById("btnIniciar").addEventListener("click", function() {
     megaSena();
 });
