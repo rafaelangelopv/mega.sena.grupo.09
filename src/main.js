@@ -1,6 +1,7 @@
 document.getElementById("btnIniciar").addEventListener("click", function() {
     megaSena();
 });
+
 function megaSena(){
     var numerosEscolhidos = [];
     var numerosSorteados = [];
@@ -29,6 +30,7 @@ function megaSena(){
         } while (numerosSorteados.includes(numeroSorteado));
         numerosSorteados.push(numeroSorteado);
     }
+    
    // Compare os números e determine os acertos
     var acertos = 0;
     for (var i = 0; i < 6; i++){
